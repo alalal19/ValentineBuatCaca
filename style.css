@@ -1,0 +1,203 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+#buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff5c5c;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  outline: none;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    min-height: 100vh;
+  font-weight: 400;
+  background-color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fef5f8;
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 2px 2px #d7d4d5;
+    line-height: 1.5;
+}
+
+i {
+    color: #f592b3;
+    font-size: 27px;
+}
+
+.card-page p {
+    color: #3b3a3b;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.backdrop {
+    background-color: #f592b3;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.emoji {
+    font-size: 36px;
+}
+
+.lowlight {
+    font-size: 50%;
+    text-shadow: 0 0;
+}
+
+.full-height-width {
+    width: 100%;
+    height: 100%;
+}
+
+.height-80 {
+    height: 80%;
+}
+
+.height-20 {
+    height: 20%;
+}
+
+
+/* structure */
+
+.container {
+    align-self: center;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.card-container {
+    box-shadow: 0 0 0.5rem #d7d4d5;
+    height: 620px;
+    width: 420px;
+    position: relative;
+}
+
+.card-page {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-page>div {
+    padding: 0.5rem 1rem 1rem;
+}
+
+.card-page .height-80 {
+    padding-top: 1rem;
+}
+
+.next-page {
+    background-color: #fef5f8;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.cover {
+    background-color: #fef5f8;
+    z-index: 11;
+}
+
+.first-page {
+    background-color: #fef5f8;
+    z-index: 10;
+}
+
+.second-page {
+    background-color: #fef5f8;
+    z-index: 9;
+}
+.third-page {
+    background-color: #fef5f8;
+    z-index: 8;
+}
+.four-page {
+    background-color: #fef5f8;
+    z-index: 7;
+}
+.five-page {
+    background-color: #fef5f8;
+    z-index: 6;
+}
+.six-page {
+    background-color: #fef5f8;
+    z-index: 5;
+}
+.seven-page {
+    background-color: #fef5f8;
+    z-index: 4;
+}
+.eight-page {
+    background-color: #fef5f8;
+    z-index: 3;
+}
+.nine-page {
+    background-color: #fef5f8;
+    z-index: 2;
+}
+.last-page {
+    background-color: #fef5f8;
+    z-index: 1;
+}
+
+
